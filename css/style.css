@@ -98,7 +98,8 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	/* background:url(../img/hero1.jpeg); */
+	padding:180px 0;
 }
 .logo{
 	width:130px;
@@ -867,4 +868,10 @@ border: 2px solid #fff;
 .delay-12s { 
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
+}
+
+/* Icons
+---------------------------------*/
+.aspNetMvcIcon {
+	content: "img\aspnetmvc.png";
 }
