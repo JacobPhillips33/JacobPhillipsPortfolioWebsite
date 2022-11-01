@@ -46,7 +46,19 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>Welcome To My Portfolio Website</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href="#about">Get Started</a>
+            <!-- <a class="link animated fadeInUp delay-1s servicelink" href="#about">Get Started</a> -->
+            <nav class="animated fadeInUp delay-1s" class="header-nav-outer"><!--main-nav-start-->
+                <div class="container">
+                    <ul class="header-nav"> <!--*******fix header-nav to match main-nav then get rid of inline color for links******************-->
+                        <li><a class="link animated fadeInUp delay-1s servicelink" href="#about">About</a></li>
+                        <li><a class="link animated fadeInUp delay-1s servicelink" href="#projects">Projects</a></li>            
+                        <li><a class="link animated fadeInUp delay-1s servicelink" href="#skills">Skills</a></li>
+                        <li><a class="link animated fadeInUp delay-1s servicelink" href="#client">Education</a></li>            
+                        <li><a class="link animated fadeInUp delay-1s servicelink" href="#contact">Experience</a></li>
+                    </ul>
+                    <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+                </div>
+            </nav><!--main-nav-end-->
     </div>
 </header><!--header-end-->
 
@@ -58,8 +70,8 @@
             <li><a href="#projects">Projects</a></li>            
             <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#client">Certificates</a></li>            
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#client">Education</a></li>            
+            <li><a href="#contact">Experience</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
@@ -68,18 +80,26 @@
 
 
 <!--***********************About Section *****************************8-->
-<section class="main-section alabaster" id="about"><!--main-section alabaster-start-->
+<section class="main-section" id="about"><!--main-section alabaster-start-->
 	<div class="container">
     	<div class="row">
 			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-            	<img  src="img/iphone.png" alt="">
+            	<img  src="img/JakeProfilePicture.jpg" alt="">
             </figure>
         	<div class="col-lg-7 col-sm-8 featured-work">
             	<h2>bio</h2>
-            	<P class="padding-b">Write a short bio here. Replace the phone picture with a picture of me. Also fix the Codewars icon.</P>
+            	<p class="padding-b">I am a Petroleum Engineer turned Full-Stack Software Engineer who specializes in creating responsive web 
+                    apps using a variety of languages and frameworks including ASP.NET MVC, C#, HTML, JS, CSS, and SQL.  
+                    I enjoy taking complex problems and breaking them down into manageable parts using my problem-solving abilities.  
+                    I am highly disciplined, detailed oriented, and very determined to solve any problem.  I am also wired to create systems 
+                    to help projects and people run more efficiently.  
+                </p>   
+                <p class="padding-b">
+                    I love all aspects of the coding world and am so excited to keep learning and growing.  When I'm not at my computer you can find me hiking with my wife and dog, golfing, or learning more about coding (I'm slightly obsessed).  
+                </p>
             	<div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-02s">
-                    	<i class="fa-envelope-o"></i>
+                    	<i class="fa-envelope"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-02s">
                         <h3>email</h3>
@@ -87,7 +107,7 @@
                     </div>    
                 </div>
                 <div class="featured-box">
-                    <a href="https://www.linkedin.com/in/jacobphillips33/">
+                    <a href="https://www.linkedin.com/in/jacobphillips33/" target="_blank">
                 	<div class="featured-box-col1 wow fadeInRight delay-04s">
                     	<i class="fa-linkedin-square"></i>
                     </div>	
@@ -98,7 +118,7 @@
                     </a>   
                 </div>
                 <div class="featured-box">
-                    <a href="https://github.com/JacobPhillips33">
+                    <a href="https://github.com/JacobPhillips33" target="_blank">
                 	<div class="featured-box-col1 wow fadeInRight delay-06s">
                     	<i class="fa-github"></i>
                     </div>	
@@ -109,13 +129,24 @@
                     </a>  
                 </div>
                 <div class="featured-box">
-                    <a href="https://www.codewars.com/users/JacobPhillips33">
+                    <a href="https://www.codewars.com/users/JacobPhillips33" target="_blank">
                 	<div class="featured-box-col1 wow fadeInRight delay-06s">
                     	<i class="fa-gear"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-06s">
                         <h3>Codewars</h3>
                         <p>codewars.com/users/JacobPhillips33</p>
+                    </div>    
+                    </a>
+                </div>
+                <div class="featured-box">
+                    <a href="img/TestResume.pdf" target="_blank">
+                	<div class="featured-box-col1 wow fadeInRight delay-06s">
+                    	<i class="fa-file"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-06s">
+                        <h3>Resume</h3>
+                        <p>Jacob Phillips Resume</p>
                     </div>    
                     </a>
                 </div>
@@ -127,58 +158,73 @@
 
 
 <!--*****************************Projects Section***************************************-->
-<section class="main-section paddind" id="projects"><!--main-section-start-->
+<section class="main-section alabaster paddind" id="projects"><!--main-section-start-->
 	<div class="container">
     	<h2>Projects</h2>
-    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+    	<h6>Click on the project below to learn more about it or see it in action!</h6>
       <div class="portfolioFilter">  
         <ul class="Portfolio-nav wow fadeIn delay-02s">
-        	<li><a href="#" data-filter="*" class="current" >All</a></li>
-            <li><a href="#" data-filter=".branding" >Branding</a></li>
-            <li><a href="#" data-filter=".webdesign" >Web design</a></li>
-            <li><a href="#" data-filter=".printdesign" >Print design</a></li>
-            <li><a href="#" data-filter=".photography" >Photography</a></li>
+        	<li><a href="#" data-filter="*" class="current" >All Apps</a></li>
+            <li><a href="#" data-filter=".aspnetapp" >ASP.NET Apps</a></li>
+            <li><a href="#" data-filter=".consoleapp" >Console Apps</a></li>
+            <!-- <li><a href="#" data-filter=".printdesign" >Print design</a></li>
+            <li><a href="#" data-filter=".photography" >Photography</a></li> -->
         </ul>
        </div> 
         
 	</div>
     <div class="portfolioContainer wow fadeInUp delay-04s">
-            	<div class=" Portfolio-box printdesign">
-                	<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>	
-                	<h3>Foto Album</h3>
-                    <p>Print Design</p>
+            	<div class=" Portfolio-box aspnetapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/ExerciseApp"><img src="img/CustomizableWorkoutsApp.png" alt="Customizable Workout App"></a>	
+                	<h3>Customizable Workouts</h3>
+                    <p>ASP.NET Core MVC Application</p>
+                </div>                
+                <div class=" Portfolio-box consoleapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/TacoParser"><img src="img/GeolocationTacoParserApp.png" alt="Application Code Picture"></a>	
+                	<h3>Geolocation - TacoParser</h3>
+                    <p>Console Application</p>
                 </div>
-                <div class="Portfolio-box webdesign">
-                	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>	
-                	<h3>Luca Theme</h3>
-                    <p>Web Design</p>
+                <div class=" Portfolio-box consoleapp" >
+                	<a target="_blank" href="https://github.com/JacobPhillips33/OpenWeatherMapAPI"><img src="img/WeatherMapAPIApp.png" alt="Application Code Picture"></a>	
+                	<h3>Weather Map API</h3>
+                    <p>Console Application</p>
                 </div>
-                <div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic3.jpg" alt=""></a>	
-                	<h3>Uni Sans</h3>
-                    <p>Branding</p>
+                <div class="Portfolio-box aspnetapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/ASPNETCoreMVC"><img src="img/BestBuyDatabaseApp.png" alt="Best Buy Database App"></a>	
+                	<h3>"Best Buy" Database</h3>
+                    <p>ASP.NET Core MVC Application</p>
                 </div>
-                <div class=" Portfolio-box photography" >
-                	<a href="#"><img src="img/Portfolio-pic4.jpg" alt=""></a>	
-                	<h3>Vinyl Record</h3>
-                    <p>Photography</p>
+                <div class=" Portfolio-box consoleapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/ExerciseDBAPI"><img src="img/ExerciseDatabaseAPIApp.png" alt="Application Code Picture"></a>	
+                	<h3>Exercise Database API</h3>
+                    <p>Console Application</p>
                 </div>
-                <div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic5.jpg" alt=""></a>	
-                	<h3>Hipster</h3>
-                    <p>Branding</p>
+                <div class=" Portfolio-box consoleapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/RomanNumeralConverter"><img src="img/RomanNumeralConverterApp.png" alt="Application Code Picture"></a>	
+                	<h3>Roman Numeral Converter</h3>
+                    <p>Console Application</p>
                 </div>
-                <div class=" Portfolio-box photography">
-                	<a href="#"><img src="img/Portfolio-pic6.jpg" alt=""></a>	
-                	<h3>Windmills</h3>
-                    <p>Photography</p>
+                <div class=" Portfolio-box consoleapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/ProblematicProblem"><img src="img/RandomActivityGeneratorApp.png" alt="Application Code Picture"></a>	
+                	<h3>Random Activity Generator</h3>
+                    <p>Console Application</p>
+                </div>
+                <div class=" Portfolio-box consoleapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/RockPaperScissorsGame"><img src="img/RockPaperScissorsGameApp.png" alt="Application Code Picture"></a>	
+                	<h3>Rock Paper Scissors Game</h3>
+                    <p>Console Application</p>
+                </div>
+                <div class=" Portfolio-box consoleapp">
+                	<a target="_blank" href="https://github.com/JacobPhillips33/BankEncapsulation"><img src="img/BankAccountApp.png" alt="Application Code Picture"></a>	
+                	<h3>Bank Account</h3>
+                    <p>Console Application</p>
                 </div>
     </div>
 </section><!--main-section-end-->
 
 
 <!--**********************Skills Section******************************-->
-<section class="main-section alabaster" id="skills"><!--main-section-start-->
+<section class="main-section" id="skills"><!--main-section-start-->
 	<div class="container">
     	<h2>Skills</h2>
     	<h6><!--Subtitle can go here...--></h6>
@@ -208,7 +254,7 @@
                     </div>
                 	<div class="service-list-col2">
                         <h3>web development</h3>
-                        <p>HTML, CSS, JavaScript</p>
+                        <p>HTML | CSS | JavaScript</p>
                     </div>                    
                 </div>
                 <div class="service-list">
@@ -217,9 +263,18 @@
                     </div>
                 	<div class="service-list-col2">
                         <h3>frameworks</h3>
-                        <p>ASP.NET MVC</p>
+                        <p>ASP.NET Core MVC</p>
                     </div>
-                </div>                
+                </div>    
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-gears"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>miscellaneous</h3>
+                        <p>REST API | ORM | JSON</p>
+                    </div>
+                </div>            
                 <div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-gears"></i>

@@ -217,6 +217,40 @@ color: #fff;
 	padding:90px 0 110px;
 }
 
+.header-nav-outer{
+	padding:0px;
+	border-bottom:1px solid #dddddd;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
+	background:#fff;
+}
+.header-nav{
+	text-align:center;
+	margin:10px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.header-nav li{
+	display:inline;
+	margin:0 1px;
+}
+.header-nav li a{
+	display:inline-block;
+	color: white;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:17px 32px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.header-nav li a:hover{ 
+	text-decoration:none;
+	color: #7cc576;
+}
 
 /* Services
 ---------------------------------*/
