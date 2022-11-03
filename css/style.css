@@ -79,6 +79,14 @@ h3{
 	text-transform:uppercase;
 	font-weight:400;
 }
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:22px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
 h6{
 	font-size:16px;
 	color:#888888;
@@ -90,6 +98,10 @@ h6{
 p{
 	line-height:24px;
 	margin:0;
+}
+.hplogo{
+	margin-left: 100px;
+	margin-right: 40px;
 }
 
 /* Header Styles
@@ -388,7 +400,7 @@ color: #fff;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:350px;
+	height:450px;
 	width:350px;
 	overflow:hidden;
 	float:left;
@@ -402,6 +414,26 @@ color: #fff;
 }
 
 .Portfolio-box img:hover {
+	opacity: 0.6;
+}
+
+.Portfolio-box1{
+	text-align:center;
+	margin-bottom:30px;
+	height:350px;
+	width:350px;
+	overflow:hidden;
+	float:left;
+	padding:0;
+}
+.Portfolio-box1 img{
+	margin-bottom:25px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;	
+}
+
+.Portfolio-box1 img:hover {
 	opacity: 0.6;
 }
 
