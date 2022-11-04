@@ -99,9 +99,6 @@ p{
 	line-height:24px;
 	margin:0;
 }
-.hplogo{
-	/* margin-left: 10px; */
-}
 
 /* Header Styles
 ---------------------------------*/
@@ -399,7 +396,7 @@ color: #fff;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:450px;
+	height:600px;
 	width:350px;
 	overflow:hidden;
 	float:left;
